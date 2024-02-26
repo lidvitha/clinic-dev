@@ -227,7 +227,17 @@ body {
 }
 
 
+/* Whats App*/
 
+section#whatsapp-par img {
+  width: 60px;
+}
+section#whatsapp-par {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z index: 999999;
+}
 
 
 /*-----------------------------------*\
@@ -724,6 +734,26 @@ body {
 }
 
 .back-top-btn.active {
+  transform: translateY(-10px);
+  visibility: visible;
+  opacity: 1;
+}
+
+.wa-btn {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  background-color: var(--royal-blue-light);
+  font-size: 18px;
+  color: var(--white);
+  padding: 14px;
+  border-radius: 50%;
+  visibility: hidden;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.wa-btn.active {
   transform: translateY(-10px);
   visibility: visible;
   opacity: 1;
