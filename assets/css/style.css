@@ -170,7 +170,7 @@ body {
 .section-subtitle {
   color: var(--royal-blue-light);
   font-family: var(--ff-poppins);
-  font-size: var(--fs-6);
+  font-size: var(--fs-4);
   font-weight: var(--fw-700);
   text-transform: uppercase;
   margin-block-end: 10px;
@@ -335,7 +335,7 @@ body {
 .hero-title { margin-block: 15px 30px; }
 
 .hero-text {
-  font-size: var(--fs-6);
+  font-size: var(--fs-4);
   line-height: 1.45;
   margin-block-end: 40px;
 }
