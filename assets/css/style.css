@@ -274,7 +274,7 @@ section#whatsapp-par {
   position: fixed;
   left: 20px;
   bottom: 20px;
-  z index: 999999;
+  z-index: 999999;
 }
 
 
